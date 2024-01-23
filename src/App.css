@@ -28,6 +28,7 @@ body {
   position: relative;
   margin: 0 auto;
   background-color: bisque;
+  overflow: hidden;
 }
 
 .slide {
@@ -35,4 +36,15 @@ body {
   height: 100%;
   position: absolute;
   top: 0;
+  left: 0;
+  transition: all 0.3s ease-in;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+}
+
+.next {
+  right: 0%;
 }
